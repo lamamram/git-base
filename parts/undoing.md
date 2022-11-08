@@ -10,3 +10,7 @@
   | --soft        | conservé     | conservée
   | --mixed [default] | écrasé   | conservée
   | --hard        | écrasé       | écrasée
+
+
+* git revert [--no-edit] [HEAD~n | hash]
+  - --no-edit: garder le message par défaut pour le nouveau commit

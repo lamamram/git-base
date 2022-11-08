@@ -84,3 +84,6 @@
   - `git rebase M` avec M branche sur laquelle on rebase
   - syntaxiquement, c'est l'inverse d'un merge
 * `git rebase M F`: rebaser F sur M
+
+# CHERRY-PICK
+  - applique un commit sur une autre branche

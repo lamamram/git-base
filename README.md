@@ -43,3 +43,7 @@
      UserKnownHostsFile /dev/null
      StrictHostKeyChecking no
     ```
+  2. commandes usuelles
+    * `git remote [add | rename | remove] [repo_name] [addr]`: gestion des dépôts en local
+    * `git push [-u] [repo_name] [branch_name]` : envoi de commits sur un dépôt distant
+      - -u ou --set-upstream: déclaration de [repo_name]/[branch_name] comme dépôt / branche par défaut: permet de lancer git fetch, push, pull sans arguments

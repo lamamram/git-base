@@ -60,3 +60,15 @@
   - --track: + création à partir de la branche de suivi (upstream)
 * `git merge [--no-ff] [branch_name]`: fusionner [branch_name] dans la branche courante 
 * `git revert -m 1 [merge_commmit]`: revert une branche entière
+
+## Merge REQUEST GITLAB (gitlab flow)
+
+1. créer une issue
+2. créer une merge request (MR) à partir de l'issue
+3. capter la branche de feature créée en local
+   - `git checkout --track origin/....`
+4. coder la branche de feature
+5. pousser sur la branche distante
+6. CI/CD
+7. Revue de code collégiale
+8. merge avec possibilité de squasher (comprimer) les commits de la branche en 1 seul   

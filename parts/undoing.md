@@ -5,3 +5,4 @@
 * git reset -- [path | .]: désindexation
 * git revert [--no-edit] [HEAD~n | hash]
   - --no-edit: garder le message par défaut pour le nouveau commit
+* git reset : blablabla

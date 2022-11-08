@@ -12,3 +12,5 @@
 	- -num : montre les num derniers commits
 	- --all: montre toutes les branches
 	- --oneline: montre sur une ligne
+    - --graph: montre les divergences / fusions entre branches
+* `git show [HEAD | hash]`: montre le commit avec métadonnées + diff

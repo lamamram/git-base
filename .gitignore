@@ -1,0 +1,10 @@
+# ignorer un dossier et son contenu (sans exceptions)
+.vscode/
+# **: n'importe quelle suite de sous dossiers
+# support partiel des regex
+.vscode/**/[gG]*.lock
+# *: n'importe quelle suite de caractères
+*.lock
+# exception à une règle précédente ( sauf si le dossier est complètement ignoré)
+# !.vscode/Gemfile.lock
+build/

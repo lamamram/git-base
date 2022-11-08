@@ -25,3 +25,6 @@
 
 3. création de commits et bases:
   * [voir ici](./parts/base_commands.md)
+
+## Actions négatives
+  * [voir ici](./parts/undoing.md)

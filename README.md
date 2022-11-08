@@ -59,3 +59,4 @@
   - -b: + création
   - --track: + création à partir de la branche de suivi (upstream)
 * `git merge [--no-ff] [branch_name]`: fusionner [branch_name] dans la branche courante 
+* `git revert -m 1 [merge_commmit]`: revert une branche entière

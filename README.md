@@ -55,7 +55,7 @@
 ## BRANCHES
 
 * `git branch [branch_name]`: création de branche sans bascule à partir de la branche / commit courant
-* `git chekout [-b]  [--track] [branch_name]`: bascule sur la branche
+* `git checkout [-b]  [--track] [branch_name]`: bascule sur la branche
   - -b: + création
   - --track: + création à partir de la branche de suivi (upstream)
 * `git merge [--no-ff] [branch_name]`: fusionner [branch_name] dans la branche courante 
@@ -72,3 +72,9 @@
 6. CI/CD
 7. Revue de code collégiale
 8. merge avec possibilité de squasher (comprimer) les commits de la branche en 1 seul   
+## TAG
+
+* `git tag -a [tag_name] [hash | HEAD] -m ["msg"]`: création
+  - -d: suppression
+* git push [--delete] [repo_name] [tag_name]: pousser et pousser suppression
+* git tag ... --force: déplacer le tag sur un nouveau commit

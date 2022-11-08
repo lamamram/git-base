@@ -4,7 +4,7 @@
 * `git init`: création d'un dépôt vide dans le repertoire de travail
 * `git config [--local | --global] section.param [value]`: configurer le dépôt
 * `git add [-i] [path | .]` : ajout à l'index
-* `git commit [-m "MSG"] [-a] [--amend]`
+* `git commit [-m "MSG"] [-a] [--amend]` [^1]
    - -a : ajoute auto tous les fichiers à l'état Modified
    - --amend: met à jour le commit courant (HEAD) avec un nouveau contenu / message
 * `git log [-p] [-num] [--all] [--oneline]` affiche l'historique
@@ -13,3 +13,5 @@
 	- --all: montre toutes les branches
 	- --oneline: montre sur une ligne
     - --graph: montre les divergences / fusions entre branches
+
+[^1]: --amend à ne pas exécuter sur un commit déjà poussé

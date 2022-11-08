@@ -78,3 +78,9 @@
   - -d: suppression
 * git push [--delete] [repo_name] [tag_name]: pousser et pousser suppression
 * git tag ... --force: déplacer le tag sur un nouveau commit
+
+## REBASE
+* sur la branche "F" qu'on déplace:
+  - `git rebase M` avec M branche sur laquelle on rebase
+  - syntaxiquement, c'est l'inverse d'un merge
+* `git rebase M F`: rebaser F sur M

@@ -47,3 +47,15 @@
     * `git remote [add | rename | remove] [repo_name] [addr]`: gestion des dépôts en local
     * `git push [-u] [repo_name] [branch_name]` : envoi de commits sur un dépôt distant
       - -u ou --set-upstream: déclaration de [repo_name]/[branch_name] comme dépôt / branche par défaut: permet de lancer git fetch, push, pull sans arguments
+
+## SCRUM
+
+![shcéma SCRUM](https://www.bocasay.com/wp-content/uploads/2022/02/Scrum-process-schema-FR-small.webp)
+
+## BRANCHES
+
+* `git branch [branch_name]`: création de branche sans bascule à partir de la branche / commit courant
+* `git chekout [-b]  [--track] [branch_name]`: bascule sur la branche
+  - -b: + création
+  - --track: + création à partir de la branche de suivi (upstream)
+* `git merge [--no-ff] [branch_name]`: fusionner [branch_name] dans la branche courante 

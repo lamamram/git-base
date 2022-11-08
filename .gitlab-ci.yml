@@ -1,3 +1,4 @@
+image: gitlab.myusine.fr:5050/myusine/ops/alpine:latest
 deploy:
   environment:
     name: prod

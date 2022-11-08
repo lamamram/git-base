@@ -28,3 +28,18 @@
 
 ## Actions négatives
   * [voir ici](./parts/undoing.md)
+
+
+## Dépôts distants
+
+  1. synchronisation des dépôts
+    * `ssh-keygen`: génération d'une paire pubkey/privkey
+    * upload de la pubkey sur le serveur
+    * config ssh de la privkey en local
+
+    ```
+    Host gitlab.myusine.fr
+     IdentityFile "/c/Users/Admin stagiaire.DESKTOP-8967908/.ssh/gitlab"
+     UserKnownHostsFile /dev/null
+     StrictHostKeyChecking no
+    ```
